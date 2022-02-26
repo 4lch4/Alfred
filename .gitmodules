@@ -1,0 +1,3 @@
+[submodule "modules/Alfred-Hue-Lights"]
+	path = modules/Alfred-Hue-Lights
+	url = git@github.com:4lch4/Alfred-Hue-Lights.git
