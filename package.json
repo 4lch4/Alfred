@@ -1,0 +1,33 @@
+{
+  "name": "alfred",
+  "version": "1.0.0",
+  "description": "Alfred is my helpful virtual assistant for managing",
+  "main": "dist/index.js",
+  "scripts": {
+    "package": "tsc",
+    "pretty": "prettier --write ."
+  },
+  "keywords": [
+    "openhab",
+    "philips-hue",
+    "iot",
+    "home",
+    "assistant"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@4lch4/logger": "^1.7.4",
+    "node-hue-api": "^5.0.0-beta.13"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "dotenv": "^16.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
